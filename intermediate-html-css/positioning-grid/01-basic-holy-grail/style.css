@@ -49,21 +49,21 @@ html {
 
 .container {
   display: grid;
-  grid-template-rows: repeat(10, 9vh);
+  grid-template: repeat(10, 9vh)/ repeat(10, 9%) ;
   gap: 1vh;
 }
 
 .footer{
   display: grid;
   justify-content: center;
-  grid-row: 10/11;
+  grid-area: 10/1/-1/-1;
   align-items: center;
-  margin-bottom: 2vh;
+  /* margin-bottom: 2vh; */
 }
 
 .header{
   display: grid;
   justify-content: center;
-  grid-row: 1/2;
+  grid-area: 1/1/2/11;
   align-items: center;
 }
