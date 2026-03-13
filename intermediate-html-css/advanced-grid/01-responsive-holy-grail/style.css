@@ -52,5 +52,5 @@ html {
 
 .container{
   display: grid;
-  gap: 1vh;
+  gap: 15px;
 }
