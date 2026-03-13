@@ -50,7 +50,7 @@ html {
 .container {
   display: grid;
   grid-template: repeat(10, 9vh)/ repeat(10, 9%) ;
-  gap: 1vh;
+  gap: 1vh 1%;
 }
 
 .footer{
@@ -58,7 +58,7 @@ html {
   justify-content: center;
   grid-area: 10/1/-1/-1;
   align-items: center;
-  /* margin-bottom: 2vh; */
+  margin-bottom: 2vh;
 }
 
 .header{
@@ -66,4 +66,17 @@ html {
   justify-content: center;
   grid-area: 1/1/2/11;
   align-items: center;
+}
+
+
+.sidebar {
+  grid-area: 2/1/10/4;
+}
+
+.nav{
+  grid-area: 2/4/3/11;
+}
+
+.article {
+  grid-area: 3/4/10/11;
 }
