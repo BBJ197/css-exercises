@@ -46,3 +46,10 @@ html {
   color: white;
   text-align: left;
 }
+
+.container {
+  display: grid;
+  grid-template-rows: repeat(10, 10vh);
+  gap: 1vh;
+}
+
